@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canva Social Media Kit - Thumbnail</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@700&display=swap');
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 50%, #FFC847 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .mockup {
+            width: 1200px;
+            height: 630px;
+            background: #1a1a2e;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 40px 80px rgba(0,0,0,0.3);
+            position: relative;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo-section h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            color: white;
+            margin-bottom: 8px;
+        }
+        
+        .logo-section p {
+            color: rgba(255,255,255,0.8);
+            font-size: 18px;
+            font-weight: 300;
+        }
+        
+        .badge {
+            background: white;
+            color: #667eea;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        
+        .content {
+            padding: 50px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 25px;
+        }
+        
+        .template-card {
+            background: #16213e;
+            border-radius: 16px;
+            padding: 20px;
+        }
+        
+        .template-preview {
+            height: 180px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .preview-1 { background: linear-gradient(45deg, #ff9a9e 0%, #fecfef 100%); }
+        .preview-2 { background: linear-gradient(45deg, #a18cd1 0%, #fbc2eb 100%); }
+        .preview-3 { background: linear-gradient(45deg, #84fab0 0%, #8fd3f4 100%); }
+        
+        .template-label {
+            color: white;
+            font-size: 14px;
+            font-weight: 600;
+            text-align: center;
+        }
+        
+        .template-icon {
+            font-size: 48px;
+            opacity: 0.8;
+        }
+        
+        .features {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            padding: 30px 50px;
+            background: rgba(255,255,255,0.05);
+        }
+        
+        .feature-item {
+            text-align: center;
+            color: white;
+        }
+        
+        .feature-number {
+            font-size: 36px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .feature-label {
+            font-size: 14px;
+            opacity: 0.7;
+            margin-top: 5px;
+        }
+        
+        .cta-section {
+            position: absolute;
+            bottom: 30px;
+            right: 50px;
+            background: linear-gradient(135deg, #FF6B6B, #FF8E53);
+            color: white;
+            padding: 16px 32px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        
+        .price-tag {
+            position: absolute;
+            top: 30px;
+            right: 50px;
+            background: #FF6B6B;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mockup">
+        <div class="price-tag">$15</div>
+        
+        <div class="header">
+            <div class="logo-section">
+                <h1>🎨 Social Media Kit</h1>
+                <p>Complete Branding Pack for Content Creators</p>
+            </div>
+            <div class="badge">✨ INSTANT DOWNLOAD</div>
+        </div>
+        
+        <div class="content">
+            <div class="template-card">
+                <div class="template-preview preview-1">
+                    <span class="template-icon">📸</span>
+                </div>
+                <p class="template-label">Instagram Posts</p>
+            </div>
+            <div class="template-card">
+                <div class="template-preview preview-2">
+                    <span class="template-icon">📱</span>
+                </div>
+                <p class="template-label">Stories Templates</p>
+            </div>
+            <div class="template-card">
+                <div class="template-preview preview-3">
+                    <span class="template-icon">📌</span>
+                </div>
+                <p class="template-label">Highlight Covers</p>
+            </div>
+        </div>
+        
+        <div class="features">
+            <div class="feature-item">
+                <div class="feature-number">30+</div>
+                <div class="feature-label">Templates</div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-number">5</div>
+                <div class="feature-label">Color Schemes</div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-number">Free</div>
+                <div class="feature-label">Font Included</div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-number">Easy</div>
+                <div class="feature-label">Customize in Canva</div>
+            </div>
+        </div>
+        
+        <div class="cta-section">Shop Now →</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Success Kit - SOP Bundle</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a3e 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .mockup {
+            width: 1200px;
+            height: 630px;
+            background: #0a0a1a;
+            border-radius: 24px;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,0.1);
+            position: relative;
+        }
+        
+        .glow {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            filter: blur(100px);
+            opacity: 0.3;
+        }
+        
+        .glow-1 { background: #00d4ff; top: -100px; left: -100px; }
+        .glow-2 { background: #ff6b6b; bottom: -100px; right: -100px; }
+        
+        .header {
+            position: relative;
+            padding: 40px 50px;
+            text-align: center;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #00d4ff, #00ff88);
+            color: #0a0a1a;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+        
+        .title {
+            font-size: 48px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 15px;
+        }
+        
+        .title span {
+            background: linear-gradient(135deg, #00d4ff, #00ff88);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .subtitle {
+            color: rgba(255,255,255,0.6);
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .templates-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 0 50px;
+            margin-top: 40px;
+        }
+        
+        .template-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            padding: 25px;
+            text-align: center;
+            transition: all 0.3s;
+        }
+        
+        .template-card:hover {
+            background: rgba(255,255,255,0.06);
+            transform: translateY(-5px);
+        }
+        
+        .template-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        
+        .template-name {
+            color: white;
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        
+        .template-desc {
+            color: rgba(255,255,255,0.4);
+            font-size: 12px;
+        }
+        
+        .footer {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 50px;
+            margin-top: 40px;
+            background: rgba(255,255,255,0.02);
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+        
+        .includes {
+            display: flex;
+            gap: 30px;
+        }
+        
+        .include-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: rgba(255,255,255,0.7);
+            font-size: 14px;
+        }
+        
+        .include-check {
+            color: #00ff88;
+        }
+        
+        .cta-section {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .price {
+            font-size: 32px;
+            font-weight: 700;
+            color: white;
+        }
+        
+        .price-label {
+            font-size: 14px;
+            color: rgba(255,255,255,0.5);
+        }
+        
+        .cta-button {
+            background: linear-gradient(135deg, #00d4ff, #00ff88);
+            color: #0a0a1a;
+            padding: 14px 32px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 15px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="mockup">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        
+        <div class="header">
+            <div class="badge">🚀 FREELANCER TOOLKIT</div>
+            <h1 class="title">Freelancer <span>Success Kit</span></h1>
+            <p class="subtitle">Professional checklists and SOPs to help you manage clients and projects like a pro</p>
+        </div>
+        
+        <div class="templates-grid">
+            <div class="template-card">
+                <div class="template-icon">📋</div>
+                <div class="template-name">Pre-Project Checklist</div>
+                <div class="template-desc">Before starting any project</div>
+            </div>
+            <div class="template-card">
+                <div class="template-icon">👥</div>
+                <div class="template-name">Client Onboarding</div>
+                <div class="template-desc">Smooth client intake process</div>
+            </div>
+            <div class="template-card">
+                <div class="template-icon">📦</div>
+                <div class="template-name">Delivery Checklist</div>
+                <div class="template-desc">Professional project delivery</div>
+            </div>
+            <div class="template-card">
+                <div class="template-icon">💬</div>
+                <div class="template-name">Communication SOP</div>
+                <div class="template-desc">Client communication guide</div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="includes">
+                <div class="include-item">
+                    <span class="include-check">✓</span>
+                    5 Checklists & SOPs
+                </div>
+                <div class="include-item">
+                    <span class="include-check">✓</span>
+                    PDF & Notion Templates
+                </div>
+                <div class="include-item">
+                    <span class="include-check">✓</span>
+                    Editable Formats
+                </div>
+            </div>
+            
+            <div class="cta-section">
+                <div>
+                    <div class="price">$15</div>
+                    <div class="price-label">one-time payment</div>
+                </div>
+                <button class="cta-button">Get the Kit →</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

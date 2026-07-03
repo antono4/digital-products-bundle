@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Printable Planner Bundle - Thumbnail</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Inter:wght@300;400;600;700&display=swap');
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .mockup {
+            width: 1200px;
+            height: 630px;
+            background: white;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 40px 80px rgba(0,0,0,0.15);
+            position: relative;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #E8D5B7 0%, #D4A574 100%);
+            padding: 35px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .title-section h1 {
+            font-family: 'Caveat', cursive;
+            font-size: 52px;
+            color: #2d3436;
+            margin-bottom: 5px;
+        }
+        
+        .title-section p {
+            color: #636e72;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        
+        .badges {
+            display: flex;
+            gap: 12px;
+        }
+        
+        .badge {
+            background: #2d3436;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 13px;
+        }
+        
+        .badge.pink { background: #fd79a8; }
+        
+        .content {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 35px 50px;
+        }
+        
+        .planner-card {
+            background: #fafafa;
+            border-radius: 16px;
+            padding: 20px;
+            border: 2px solid #f0f0f0;
+        }
+        
+        .planner-preview {
+            height: 140px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .preview-weekly { background: linear-gradient(135deg, #a29bfe, #6c5ce7); }
+        .preview-budget { background: linear-gradient(135deg, #55efc4, #00b894); }
+        .preview-habit { background: linear-gradient(135deg, #ffeaa7, #fdcb6e); }
+        .preview-goal { background: linear-gradient(135deg, #ff7675, #d63031); }
+        
+        .planner-label {
+            font-weight: 600;
+            color: #2d3436;
+            font-size: 14px;
+            text-align: center;
+        }
+        
+        .checklist {
+            background: #f8f9fa;
+            padding: 25px 50px;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .check-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #2d3436;
+            font-size: 15px;
+        }
+        
+        .check-icon {
+            width: 24px;
+            height: 24px;
+            background: #00b894;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .footer {
+            background: #2d3436;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .price {
+            font-size: 42px;
+            font-weight: 700;
+            color: white;
+        }
+        
+        .price span {
+            font-size: 20px;
+            font-weight: 400;
+            opacity: 0.7;
+        }
+        
+        .cta-button {
+            background: linear-gradient(135deg, #fd79a8, #e84393);
+            color: white;
+            padding: 16px 40px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .size-tags {
+            display: flex;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        
+        .size-tag {
+            background: rgba(0,0,0,0.1);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            color: #636e72;
+        }
+    </style>
+</head>
+<body>
+    <div class="mockup">
+        <div class="header">
+            <div class="title-section">
+                <h1>📅 Printable Planner Bundle</h1>
+                <p>Weekly Planner + Budget Tracker + Habit Tracker + Goal Setting</p>
+            </div>
+            <div class="badges">
+                <span class="badge">✨ INSTANT</span>
+                <span class="badge pink">A4 & LETTER</span>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="planner-card">
+                <div class="planner-preview preview-weekly">
+                    <span style="font-size: 40px;">📆</span>
+                </div>
+                <p class="planner-label">Weekly Planner</p>
+            </div>
+            <div class="planner-card">
+                <div class="planner-preview preview-budget">
+                    <span style="font-size: 40px;">💰</span>
+                </div>
+                <p class="planner-label">Budget Tracker</p>
+            </div>
+            <div class="planner-card">
+                <div class="planner-preview preview-habit">
+                    <span style="font-size: 40px;">✓</span>
+                </div>
+                <p class="planner-label">Habit Tracker</p>
+            </div>
+            <div class="planner-card">
+                <div class="planner-preview preview-goal">
+                    <span style="font-size: 40px;">🎯</span>
+                </div>
+                <p class="planner-label">Goal Setting</p>
+            </div>
+        </div>
+        
+        <div class="checklist">
+            <div class="check-item">
+                <span class="check-icon">✓</span>
+                7 Printable Pages
+            </div>
+            <div class="check-item">
+                <span class="check-icon">✓</span>
+                High Quality PDF
+            </div>
+            <div class="check-item">
+                <span class="check-icon">✓</span>
+                Editable Fields
+            </div>
+            <div class="check-item">
+                <span class="check-icon">✓</span>
+                Unlimited Print
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div>
+                <div class="price">$15 <span>USD</span></div>
+                <div class="size-tags">
+                    <span class="size-tag">US Letter</span>
+                    <span class="size-tag">A4 Size</span>
+                </div>
+            </div>
+            <button class="cta-button">Download Now →</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Products Bundle - Premium Templates & Resources</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #ec4899;
+            --accent: #f59e0b;
+            --dark: #0f172a;
+            --light: #f8fafc;
+            --gray: #64748b;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+            padding: 16px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+        
+        .nav-links a {
+            color: var(--gray);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+        
+        .btn {
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 14px;
+            text-decoration: none;
+            transition: all 0.3s;
+            cursor: pointer;
+            border: none;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(99, 102, 241, 0.3);
+        }
+        
+        .btn-outline {
+            border: 2px solid var(--primary);
+            color: var(--primary);
+            background: transparent;
+        }
+        
+        .btn-outline:hover {
+            background: var(--primary);
+            color: white;
+        }
+        
+        /* Hero Section */
+        .hero {
+            padding: 160px 50px 100px;
+            text-align: center;
+            background: linear-gradient(180deg, white 0%, var(--light) 100%);
+        }
+        
+        .hero-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, rgba(99,102,241,0.1), rgba(236,72,153,0.1));
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 24px;
+        }
+        
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 64px;
+            line-height: 1.1;
+            margin-bottom: 24px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .hero h1 span {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .hero p {
+            font-size: 20px;
+            color: var(--gray);
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin-top: 80px;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 36px;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            color: var(--gray);
+            margin-top: 4px;
+        }
+        
+        /* Products Section */
+        .products {
+            padding: 100px 50px;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .section-header h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+        
+        .section-header p {
+            color: var(--gray);
+            font-size: 18px;
+        }
+        
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .product-card {
+            background: white;
+            border-radius: 24px;
+            overflow: hidden;
+            transition: all 0.4s;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 30px 60px rgba(0,0,0,0.1);
+        }
+        
+        .product-image {
+            height: 220px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 80px;
+        }
+        
+        .product-image.img-1 { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .product-image.img-2 { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+        .product-image.img-3 { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+        .product-image.img-4 { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+        .product-image.img-5 { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+        
+        .product-content {
+            padding: 30px;
+        }
+        
+        .product-badge {
+            display: inline-block;
+            background: rgba(99,102,241,0.1);
+            color: var(--primary);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        
+        .product-content h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        
+        .product-content p {
+            color: var(--gray);
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        
+        .product-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .product-price {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--dark);
+        }
+        
+        .product-price span {
+            font-size: 14px;
+            font-weight: 400;
+            color: var(--gray);
+            text-decoration: line-through;
+            margin-left: 8px;
+        }
+        
+        /* Bundle Section */
+        .bundle {
+            padding: 100px 50px;
+            background: var(--dark);
+            color: white;
+            text-align: center;
+        }
+        
+        .bundle h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .bundle p {
+            color: rgba(255,255,255,0.7);
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+        
+        .bundle-price {
+            font-size: 56px;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        
+        .bundle-price span {
+            font-size: 24px;
+            -webkit-text-fill-color: rgba(255,255,255,0.5);
+            text-decoration: line-through;
+        }
+        
+        .bundle-savings {
+            background: rgba(236,72,153,0.2);
+            color: var(--secondary);
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 14px;
+            display: inline-block;
+            margin-bottom: 40px;
+        }
+        
+        .bundle-features {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .bundle-feature {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .check-icon {
+            width: 24px;
+            height: 24px;
+            background: var(--secondary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            padding: 100px 50px;
+        }
+        
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .testimonial-card {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        .testimonial-stars {
+            color: var(--accent);
+            font-size: 18px;
+            margin-bottom: 16px;
+        }
+        
+        .testimonial-text {
+            font-size: 16px;
+            color: var(--gray);
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .author-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+        }
+        
+        .author-info h4 {
+            font-size: 15px;
+            margin-bottom: 2px;
+        }
+        
+        .author-info span {
+            font-size: 13px;
+            color: var(--gray);
+        }
+        
+        /* FAQ */
+        .faq {
+            padding: 100px 50px;
+            background: var(--light);
+        }
+        
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-item {
+            background: white;
+            margin-bottom: 16px;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        .faq-question {
+            padding: 24px 30px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .faq-answer {
+            padding: 0 30px 24px;
+            color: var(--gray);
+            font-size: 15px;
+            display: none;
+        }
+        
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+        
+        /* CTA */
+        .cta {
+            padding: 100px 50px;
+            text-align: center;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+        }
+        
+        .cta h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .cta p {
+            font-size: 18px;
+            opacity: 0.9;
+            max-width: 500px;
+            margin: 0 auto 40px;
+        }
+        
+        .cta .btn {
+            background: white;
+            color: var(--primary);
+        }
+        
+        .cta .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        /* Footer */
+        footer {
+            padding: 60px 50px 30px;
+            background: var(--dark);
+            color: white;
+        }
+        
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-bottom: 40px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .footer-brand h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            margin-bottom: 12px;
+        }
+        
+        .footer-brand p {
+            color: rgba(255,255,255,0.6);
+            font-size: 14px;
+        }
+        
+        .footer-links {
+            display: flex;
+            gap: 60px;
+        }
+        
+        .footer-col h4 {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            color: rgba(255,255,255,0.5);
+        }
+        
+        .footer-col a {
+            display: block;
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            font-size: 14px;
+            margin-bottom: 12px;
+            transition: color 0.3s;
+        }
+        
+        .footer-col a:hover {
+            color: var(--secondary);
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            color: rgba(255,255,255,0.4);
+            font-size: 13px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav {
+                padding: 16px 20px;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+            
+            .hero {
+                padding: 120px 20px 60px;
+            }
+            
+            .hero h1 {
+                font-size: 40px;
+            }
+            
+            .stats {
+                gap: 30px;
+            }
+            
+            .products, .testimonials, .faq, .cta {
+                padding: 60px 20px;
+            }
+            
+            .bundle {
+                padding: 60px 20px;
+            }
+            
+            .bundle h2 {
+                font-size: 32px;
+            }
+            
+            .footer-content {
+                flex-direction: column;
+                gap: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">StudioDigital</div>
+        <div class="nav-links">
+            <a href="#products">Products</a>
+            <a href="#bundle">Bundle</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#faq">FAQ</a>
+        </div>
+        <a href="#bundle" class="btn btn-primary">Get All 5 Products</a>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-badge">✨ Premium Digital Products</div>
+        <h1>Create <span>Stunning Content</span> In Minutes</h1>
+        <p>Professional templates and resources for content creators, freelancers, and small business owners. Save hours of design time.</p>
+        <div class="hero-buttons">
+            <a href="#products" class="btn btn-primary">Browse Products</a>
+            <a href="#bundle" class="btn btn-outline">View Bundle Deal</a>
+        </div>
+        
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">5,000+</div>
+                <div class="stat-label">Happy Customers</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">50+</div>
+                <div class="stat-label">Templates</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">4.9★</div>
+                <div class="stat-label">Average Rating</div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="section-header">
+            <h2>Premium Products</h2>
+            <p>Professionally designed templates and resources to elevate your brand</p>
+        </div>
+        
+        <div class="products-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-image img-1">🎨</div>
+                <div class="product-content">
+                    <span class="product-badge">CANVA TEMPLATES</span>
+                    <h3>Social Media Kit</h3>
+                    <p>Complete Instagram branding pack with posts, stories, highlights & brand guide.</p>
+                    <div class="product-footer">
+                        <div class="product-price">$18 <span>$25</span></div>
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-image img-2">📅</div>
+                <div class="product-content">
+                    <span class="product-badge">PRINTABLE</span>
+                    <h3>Planner Bundle</h3>
+                    <p>Weekly planner, budget tracker, habit tracker & goal setting worksheet.</p>
+                    <div class="product-footer">
+                        <div class="product-price">$15 <span>$22</span></div>
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-image img-3">📚</div>
+                <div class="product-content">
+                    <span class="product-badge">E-BOOK</span>
+                    <h3>30-Day Minimalism</h3>
+                    <p>Transform your life with daily challenges, worksheets & journaling prompts.</p>
+                    <div class="product-footer">
+                        <div class="product-price">$22 <span>$35</span></div>
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-image img-4">💼</div>
+                <div class="product-content">
+                    <span class="product-badge">BUSINESS TOOLS</span>
+                    <h3>Freelancer SOP Kit</h3>
+                    <p>Professional checklists & SOPs for client management & project workflow.</p>
+                    <div class="product-footer">
+                        <div class="product-price">$18 <span>$28</span></div>
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="product-image img-5">☕</div>
+                <div class="product-content">
+                    <span class="product-badge">SVG FILES</span>
+                    <h3>Coffee SVG Pack</h3>
+                    <p>10 beautifully designed coffee-themed SVGs for Cricut & crafting projects.</p>
+                    <div class="product-footer">
+                        <div class="product-price">$12 <span>$18</span></div>
+                        <a href="#" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Bundle Section -->
+    <section class="bundle" id="bundle">
+        <h2>Get Everything In One Bundle</h2>
+        <p>All 5 premium products at a special price. Save over 40% compared to buying separately.</p>
+        
+        <div class="bundle-price">$49 <span>$128</span></div>
+        <div class="bundle-savings">🎉 You Save $79!</div>
+        
+        <div class="bundle-features">
+            <div class="bundle-feature">
+                <span class="check-icon">✓</span>
+                Social Media Kit
+            </div>
+            <div class="bundle-feature">
+                <span class="check-icon">✓</span>
+                Planner Bundle
+            </div>
+            <div class="bundle-feature">
+                <span class="check-icon">✓</span>
+                Minimalism E-Book
+            </div>
+            <div class="bundle-feature">
+                <span class="check-icon">✓</span>
+                Freelancer SOP
+            </div>
+            <div class="bundle-feature">
+                <span class="check-icon">✓</span>
+                Coffee SVG Pack
+            </div>
+        </div>
+        
+        <a href="#" class="btn btn-primary">Get The Bundle Now →</a>
+    </section>
+    
+    <!-- Testimonials -->
+    <section class="testimonials" id="reviews">
+        <div class="section-header">
+            <h2>What Customers Say</h2>
+            <p>Join thousands of satisfied creators</p>
+        </div>
+        
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">"This social media kit saved me so much time! The designs are beautiful and easy to customize. Highly recommend!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">S</div>
+                    <div class="author-info">
+                        <h4>Sarah M.</h4>
+                        <span>Beauty Blogger</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">"The planner bundle helped me get organized for the first time in years. The budget tracker alone was worth the price!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">J</div>
+                    <div class="author-info">
+                        <h4>Jessica K.</h4>
+                        <span>Freelance Designer</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="testimonial-stars">★★★★★</div>
+                <p class="testimonial-text">"The freelancer SOP kit made me look so professional. I landed my first high-paying client after using these templates!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">M</div>
+                    <div class="author-info">
+                        <h4>Michael R.</h4>
+                        <span>Virtual Assistant</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+        <div class="section-header">
+            <h2>Frequently Asked Questions</h2>
+            <p>Everything you need to know</p>
+        </div>
+        
+        <div class="faq-container">
+            <div class="faq-item active">
+                <div class="faq-question">What formats are included? <span>+</span></div>
+                <div class="faq-answer">Most products include PDF, PNG, and SVG formats where applicable. Canva templates come with direct link to edit. All files are high-resolution (300 DPI) and print-ready.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Can I use these for commercial projects? <span>+</span></div>
+                <div class="faq-answer">Yes! All products include personal and small business commercial license. You can use them for client work, print-on-demand, and products for sale (up to 500 units per design).</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Do I need design skills to use these? <span>+</span></div>
+                <div class="faq-answer">Not at all! The templates are designed to be user-friendly. For Canva templates, simply replace the text and images. No design experience needed.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">What's your refund policy? <span>+</span></div>
+                <div class="faq-answer">Due to the digital nature of our products, we cannot offer refunds once files are downloaded. Please preview all products thoroughly before purchasing.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">How do I receive the files? <span>+</span></div>
+                <div class="faq-answer">After purchase, you'll receive an instant download link. Files are delivered as ZIP archives containing all necessary formats and documentation.</div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA -->
+    <section class="cta">
+        <h2>Ready to Level Up Your Content?</h2>
+        <p>Get instant access to all 5 premium products and start creating amazing content today.</p>
+        <a href="#" class="btn">Get The Bundle - $49 →</a>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>StudioDigital</h3>
+                <p>Premium digital products for creators and entrepreneurs.</p>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Products</h4>
+                    <a href="#">Social Media Kit</a>
+                    <a href="#">Planner Bundle</a>
+                    <a href="#">E-Books</a>
+                    <a href="#">SVG Packs</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="#">Contact Us</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Refund Policy</a>
+                    <a href="#">License Info</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            © 2024 StudioDigital. All rights reserved.
+        </div>
+    </footer>
+    
+    <script>
+        // Simple FAQ toggle
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentElement;
+                item.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>

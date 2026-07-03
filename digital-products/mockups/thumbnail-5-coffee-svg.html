@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Cup SVG Pack - Cricut Ready</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@400;500;600&display=swap');
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: linear-gradient(135deg, #8B4513 0%, #D2691E 50%, #DEB887 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .mockup {
+            width: 1200px;
+            height: 630px;
+            background: #FDF8F3;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 40px 80px rgba(139, 69, 19, 0.3);
+            position: relative;
+        }
+        
+        .coffee-pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 200px;
+            background: linear-gradient(180deg, #8B4513 0%, transparent 100%);
+            opacity: 0.1;
+        }
+        
+        .header {
+            position: relative;
+            background: linear-gradient(135deg, #8B4513, #A0522D);
+            padding: 40px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        
+        .title-block h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 44px;
+            color: white;
+            margin-bottom: 10px;
+        }
+        
+        .title-block p {
+            color: rgba(255,255,255,0.85);
+            font-size: 18px;
+            font-weight: 400;
+        }
+        
+        .badges {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .badge {
+            background: white;
+            color: #8B4513;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+            padding: 30px 50px;
+        }
+        
+        .product-card {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+        
+        .product-card:hover { transform: translateY(-5px); }
+        
+        .product-preview {
+            width: 100%;
+            height: 100px;
+            border-radius: 12px;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+        }
+        
+        .preview-1 { background: linear-gradient(135deg, #FFF5E6, #FFE4C4); }
+        .preview-2 { background: linear-gradient(135deg, #E8F5E9, #C8E6C9); }
+        .preview-3 { background: linear-gradient(135deg, #F3E5F5, #E1BEE7); }
+        .preview-4 { background: linear-gradient(135deg, #E3F2FD, #BBDEFB); }
+        .preview-5 { background: linear-gradient(135deg, #FBE9E7, #FFCCBC); }
+        
+        .product-label {
+            font-weight: 600;
+            color: #5D4037;
+            font-size: 13px;
+        }
+        
+        .features-bar {
+            background: #5D4037;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .feature {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white;
+            font-size: 14px;
+        }
+        
+        .feature-icon {
+            width: 28px;
+            height: 28px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+        }
+        
+        .footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 25px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            border-top: 1px solid #EEE;
+        }
+        
+        .formats {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .format-tag {
+            background: #FFF5E6;
+            color: #8B4513;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        
+        .cta-area {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .price-block {
+            text-align: right;
+        }
+        
+        .price {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            color: #5D4037;
+            font-weight: 700;
+        }
+        
+        .price-note {
+            font-size: 12px;
+            color: #999;
+        }
+        
+        .cta-button {
+            background: linear-gradient(135deg, #8B4513, #A0522D);
+            color: white;
+            padding: 16px 36px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .coffeebeans {
+            position: absolute;
+            font-size: 60px;
+            opacity: 0.1;
+        }
+        
+        .bean-1 { top: 250px; left: 30px; }
+        .bean-2 { bottom: 80px; right: 40px; }
+    </style>
+</head>
+<body>
+    <div class="mockup">
+        <div class="coffee-pattern"></div>
+        <span class="coffeebeans bean-1">☕</span>
+        <span class="coffeebeans bean-2">🫘</span>
+        
+        <div class="header">
+            <div class="title-block">
+                <h1>☕ Coffee SVG Pack</h1>
+                <p>Cricut & Silhouette Ready Cut Files</p>
+            </div>
+            <div class="badges">
+                <span class="badge">10 DESIGNS</span>
+                <span class="badge">COMMERCIAL USE</span>
+            </div>
+        </div>
+        
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-preview preview-1">☕</div>
+                <div class="product-label">Classic Cup</div>
+            </div>
+            <div class="product-card">
+                <div class="product-preview preview-2">🍵</div>
+                <div class="product-label">Latte Cup</div>
+            </div>
+            <div class="product-card">
+                <div class="product-preview preview-3">🧋</div>
+                <div class="product-label">Boba Cup</div>
+            </div>
+            <div class="product-card">
+                <div class="product-preview preview-4">🥤</div>
+                <div class="product-label">Takeaway</div>
+            </div>
+            <div class="product-card">
+                <div class="product-preview preview-5">🫘</div>
+                <div class="product-label">Coffee Beans</div>
+            </div>
+        </div>
+        
+        <div class="features-bar">
+            <div class="feature">
+                <span class="feature-icon">✓</span>
+                SVG + PNG Files
+            </div>
+            <div class="feature">
+                <span class="feature-icon">✓</span>
+                Easy Cut Ready
+            </div>
+            <div class="feature">
+                <span class="feature-icon">✓</span>
+                Commercial License
+            </div>
+            <div class="feature">
+                <span class="feature-icon">✓</span>
+                Instant Download
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="formats">
+                <span class="format-tag">SVG</span>
+                <span class="format-tag">PNG</span>
+                <span class="format-tag">DXF</span>
+                <span class="format-tag">PDF</span>
+            </div>
+            
+            <div class="cta-area">
+                <div class="price-block">
+                    <div class="price">$10</div>
+                    <div class="price-note">one-time</div>
+                </div>
+                <button class="cta-button">Download Now →</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
