@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1100">
+  <!-- Background -->
+  <rect width="850" height="1100" fill="#FAFAFA"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="850" height="80" fill="#A29BFE"/>
+  <text x="425" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TABLE OF CONTENTS</text>
+  
+  <!-- Chapter List -->
+  <g font-family="Arial, sans-serif">
+    <!-- Introduction -->
+    <rect x="50" y="100" width="750" height="60" fill="#FFFFFF" stroke="#E0E0E0" rx="10"/>
+    <text x="80" y="138" font-size="16" font-weight="bold" fill="#2D3436">Introduction</text>
+    <text x="700" y="138" font-size="14" fill="#636E72" text-anchor="end">3</text>
+    
+    <!-- Week 1 -->
+    <rect x="50" y="170" width="750" height="60" fill="#A29BFE" rx="10"/>
+    <text x="80" y="208" font-size="16" font-weight="bold" fill="#FFFFFF">📦 WEEK 1: CLUTTER AUDIT (Days 1-7)</text>
+    <text x="700" y="208" font-size="14" fill="#FFFFFF" text-anchor="end">5</text>
+    
+    <rect x="70" y="240" width="730" height="40" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+    <text x="90" y="267" font-size="14" fill="#636E72">Day 1: Understanding Minimalism</text>
+    <text x="780" y="267" font-size="12" fill="#B2BEC3" text-anchor="end">6</text>
+    
+    <rect x="70" y="285" width="730" height="40" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+    <text x="90" y="312" font-size="14" fill="#636E72">Day 2: The 90/90 Rule</text>
+    <text x="780" y="312" font-size="12" fill="#B2BEC3" text-anchor="end">8</text>
+    
+    <rect x="70" y="330" width="730" height="40" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+    <text x="90" y="357" font-size="14" fill="#636E72">Day 3: Declutter Your Wardrobe</text>
+    <text x="780" y="357" font-size="12" fill="#B2BEC3" text-anchor="end">10</text>
+    
+    <rect x="70" y="375" width="730" height="40" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+    <text x="90" y="402" font-size="14" fill="#636E72">Day 4: Digital Declutter</text>
+    <text x="780" y="402" font-size="12" fill="#B2BEC3" text-anchor="end">12</text>
+    
+    <rect x="70" y="420" width="730" height="40" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+    <text x="90" y="447" font-size="14" fill="#636E72">Day 5: Paper Clutter</text>
+    <text x="780" y="447" font-size="12" fill="#B2BEC3" text-anchor="end">14</text>
+    
+    <rect x="70" y="465" width="730" height="40" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+    <text x="90" y="492" font-size="14" fill="#636E72">Day 6: Kitchen Declutter</text>
+    <text x="780" y="492" font-size="12" fill="#B2BEC3" text-anchor="end">16</text>
+    
+    <rect x="70" y="510" width="730" height="40" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+    <text x="90" y="537" font-size="14" fill="#636E72">Day 7: Weekly Reflection</text>
+    <text x="780" y="537" font-size="12" fill="#B2BEC3" text-anchor="end">18</text>
+    
+    <!-- Week 2 -->
+    <rect x="50" y="560" width="750" height="60" fill="#74B9FF" rx="10"/>
+    <text x="80" y="598" font-size="16" font-weight="bold" fill="#FFFFFF">💡 WEEK 2: MINDFUL SPENDING (Days 8-14)</text>
+    <text x="700" y="598" font-size="14" fill="#FFFFFF" text-anchor="end">20</text>
+    
+    <rect x="70" y="630" width="730" height="40" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+    <text x="90" y="657" font-size="14" fill="#636E72">Day 8: Track Your Spending</text>
+    <text x="780" y="657" font-size="12" fill="#B2BEC3" text-anchor="end">21</text>
+    
+    <rect x="70" y="675" width="730" height="40" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+    <text x="90" y="702" font-size="14" fill="#636E72">Day 9: The 30-Day Rule</text>
+    <text x="780" y="702" font-size="12" fill="#B2BEC3" text-anchor="end">23</text>
+    
+    <rect x="70" y="720" width="730" height="40" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+    <text x="90" y="747" font-size="14" fill="#636E72">Day 10: Cancel Unused Subscriptions</text>
+    <text x="780" y="747" font-size="12" fill="#B2BEC3" text-anchor="end">25</text>
+    
+    <!-- Week 3 & 4 Preview -->
+    <rect x="50" y="770" width="750" height="60" fill="#00B894" rx="10"/>
+    <text x="80" y="808" font-size="16" font-weight="bold" fill="#FFFFFF">🌿 WEEK 3: SIMPLE LIVING (Days 15-21)</text>
+    <text x="700" y="808" font-size="14" fill="#FFFFFF" text-anchor="end">27</text>
+    
+    <rect x="50" y="840" width="750" height="60" fill="#FDCB6E" rx="10"/>
+    <text x="80" y="878" font-size="16" font-weight="bold" fill="#2D3436">🎯 WEEK 4: MAINTAIN & THRIVE (Days 22-30)</text>
+    <text x="700" y="878" font-size="14" fill="#2D3436" text-anchor="end">29</text>
+    
+    <!-- Bonus -->
+    <rect x="50" y="910" width="750" height="60" fill="#E17055" rx="10"/>
+    <text x="80" y="948" font-size="16" font-weight="bold" fill="#FFFFFF">🎁 BONUS: Maintenance Checklist & Resources</text>
+    <text x="700" y="948" font-size="14" fill="#FFFFFF" text-anchor="end">31</text>
+  </g>
+</svg>

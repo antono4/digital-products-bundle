@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Boho Coffee Quote Design -->
+  
+  <!-- Decorative Circle Frame -->
+  <circle cx="250" cy="250" r="220" fill="none" stroke="#D4A574" stroke-width="2"/>
+  <circle cx="250" cy="250" r="200" fill="none" stroke="#D4A574" stroke-width="1"/>
+  
+  <!-- Coffee Cup Icon -->
+  <path d="M200 180 L210 260 Q215 275 230 275 L270 275 Q285 275 290 260 L300 180 Z" 
+        fill="#FFFFFF" stroke="#2D3436" stroke-width="2"/>
+  <path d="M300 195 Q340 195 340 230 Q340 265 300 265" 
+        fill="none" stroke="#2D3436" stroke-width="2"/>
+  <ellipse cx="250" cy="180" rx="50" ry="12" fill="#6D4C41"/>
+  
+  <!-- Steam -->
+  <path d="M230 155 Q235 140 230 125" fill="none" stroke="#636E72" stroke-width="2"/>
+  <path d="M250 150 Q255 130 250 110" fill="none" stroke="#636E72" stroke-width="2"/>
+  <path d="M270 155 Q275 140 270 125" fill="none" stroke="#636E72" stroke-width="2"/>
+  
+  <!-- Quote Text - Lines -->
+  <text x="250" y="320" font-family="Georgia, serif" font-size="16" fill="#2D3436" text-anchor="middle">"Coffee is a</text>
+  <text x="250" y="345" font-family="Georgia, serif" font-size="16" fill="#2D3436" text-anchor="middle">language in itself"</text>
+  
+  <!-- Decorative Elements -->
+  <!-- Small stars/sparkles -->
+  <circle cx="150" cy="150" r="3" fill="#D4A574"/>
+  <circle cx="350" cy="150" r="3" fill="#D4A574"/>
+  <circle cx="100" cy="250" r="2" fill="#D4A574"/>
+  <circle cx="400" cy="250" r="2" fill="#D4A574"/>
+  <circle cx="150" cy="350" r="3" fill="#D4A574"/>
+  <circle cx="350" cy="350" r="3" fill="#D4A574"/>
+  
+  <!-- Small leaf decorations -->
+  <ellipse cx="130" cy="200" rx="15" ry="8" fill="#A8D5BA" transform="rotate(-45 130 200)"/>
+  <ellipse cx="370" cy="200" rx="15" ry="8" fill="#A8D5BA" transform="rotate(45 370 200)"/>
+  <ellipse cx="130" cy="300" rx="15" ry="8" fill="#A8D5BA" transform="rotate(45 130 300)"/>
+  <ellipse cx="370" cy="300" rx="15" ry="8" fill="#A8D5BA" transform="rotate(-45 370 300)"/>
+  
+  <!-- Bottom decoration - simple line -->
+  <line x1="180" y1="380" x2="320" y2="380" stroke="#D4A574" stroke-width="2"/>
+  <circle cx="250" cy="380" r="5" fill="#D4A574"/>
+</svg>

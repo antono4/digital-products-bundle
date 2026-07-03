@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Coffee Ring Stain - Vintage Look -->
+  
+  <!-- Outer Ring - uneven, organic shape -->
+  <path d="M100 250 
+           Q80 150 150 100 
+           Q250 50 350 100 
+           Q420 150 400 250 
+           Q420 350 350 400 
+           Q250 450 150 400 
+           Q80 350 100 250" 
+        fill="none" stroke="#8D6E63" stroke-width="25" stroke-linecap="round" opacity="0.4"/>
+  
+  <!-- Inner ring line -->
+  <path d="M120 250 
+           Q105 170 160 130 
+           Q250 90 340 130 
+           Q395 170 380 250 
+           Q395 330 340 370 
+           Q250 410 160 370 
+           Q105 330 120 250" 
+        fill="none" stroke="#6D4C41" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Coffee drip marks (aging effect) -->
+  <circle cx="200" cy="150" r="8" fill="#8D6E63" opacity="0.3"/>
+  <circle cx="310" cy="180" r="6" fill="#8D6E63" opacity="0.25"/>
+  <circle cx="350" cy="280" r="10" fill="#8D6E63" opacity="0.3"/>
+  <circle cx="280" cy="380" r="7" fill="#8D6E63" opacity="0.25"/>
+  <circle cx="150" cy="320" r="9" fill="#8D6E63" opacity="0.3"/>
+  
+  <!-- Inner darker coffee residue -->
+  <ellipse cx="250" cy="250" rx="100" ry="80" fill="#5D4037" opacity="0.1"/>
+  
+  <!-- Crack lines (vintage paper effect) -->
+  <path d="M180 200 Q185 220 175 240" fill="none" stroke="#8D6E63" stroke-width="0.5" opacity="0.4"/>
+  <path d="M320 180 Q330 200 325 230" fill="none" stroke="#8D6E63" stroke-width="0.5" opacity="0.4"/>
+  <path d="M300 320 Q290 340 295 360" fill="none" stroke="#8D6E63" stroke-width="0.5" opacity="0.4"/>
+</svg>

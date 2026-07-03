@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Espresso Cup - Small and Elegant -->
+  
+  <!-- Saucer -->
+  <ellipse cx="250" cy="420" rx="180" ry="40" fill="#F5F5F5" stroke="#2D3436" stroke-width="3"/>
+  
+  <!-- Cup Body -->
+  <path d="M160 200 L175 380 Q180 400 200 400 L300 400 Q320 400 325 380 L340 200 Z" 
+        fill="#FFFFFF" stroke="#2D3436" stroke-width="3"/>
+  
+  <!-- Coffee -->
+  <ellipse cx="250" cy="200" rx="90" ry="20" fill="#3E2723"/>
+  
+  <!-- Crema -->
+  <ellipse cx="250" cy="200" rx="70" ry="12" fill="#8D6E63"/>
+  
+  <!-- Handle -->
+  <path d="M340 230 Q420 230 420 290 Q420 350 340 350" 
+        fill="none" stroke="#2D3436" stroke-width="3"/>
+  
+  <!-- Coffee Bean Decoration -->
+  <ellipse cx="250" cy="300" rx="25" ry="15" fill="#5D4037" transform="rotate(-30 250 300)"/>
+  <path d="M235 300 Q250 295 265 300" fill="none" stroke="#3E2723" stroke-width="2"/>
+  
+  <!-- Small Hearts (Crema Art) -->
+  <path d="M250 310 C250 300, 235 300, 235 310 C235 320, 250 330, 250 330 C250 330, 265 320, 265 310 C265 300, 250 300, 250 310" 
+        fill="#FFFFFF" opacity="0.8"/>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Classic Coffee Cup - Simple Minimalist -->
+  
+  <!-- Cup Body -->
+  <path d="M100 150 L120 400 Q130 420 150 420 L350 420 Q370 420 380 400 L400 150 Z" 
+        fill="#FFFFFF" stroke="#2D3436" stroke-width="3"/>
+  
+  <!-- Cup Handle -->
+  <path d="M400 180 Q480 180 480 250 Q480 320 400 320" 
+        fill="none" stroke="#2D3436" stroke-width="3"/>
+  
+  <!-- Coffee Surface -->
+  <ellipse cx="250" cy="150" rx="150" ry="30" fill="#6D4C41"/>
+  
+  <!-- Steam Lines -->
+  <path d="M180 100 Q190 80 180 60" fill="none" stroke="#636E72" stroke-width="2" stroke-linecap="round"/>
+  <path d="M250 90 Q260 65 250 45" fill="none" stroke="#636E72" stroke-width="2" stroke-linecap="round"/>
+  <path d="M320 100 Q330 80 320 60" fill="none" stroke="#636E72" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Simple Heart on Cup -->
+  <path d="M250 260 C250 240, 220 240, 220 260 C220 280, 250 300, 250 300 C250 300, 280 280, 280 260 C280 240, 250 240, 250 260" 
+        fill="#D4A574" stroke="none"/>
+</svg>

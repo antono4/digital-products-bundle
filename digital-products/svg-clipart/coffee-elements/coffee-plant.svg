@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Coffee Plant with Cherries -->
+  
+  <!-- Main Stem -->
+  <path d="M250 450 Q245 350 250 250 Q255 150 250 50" 
+        fill="none" stroke="#2E7D32" stroke-width="6"/>
+  
+  <!-- Branch Left 1 -->
+  <path d="M250 380 Q200 360 150 380" 
+        fill="none" stroke="#388E3C" stroke-width="4"/>
+  
+  <!-- Branch Right 1 -->
+  <path d="M250 320 Q300 300 350 320" 
+        fill="none" stroke="#388E3C" stroke-width="4"/>
+  
+  <!-- Branch Left 2 -->
+  <path d="M250 260 Q190 240 140 260" 
+        fill="none" stroke="#388E3C" stroke-width="4"/>
+  
+  <!-- Branch Right 2 -->
+  <path d="M250 200 Q310 180 360 200" 
+        fill="none" stroke="#388E3C" stroke-width="4"/>
+  
+  <!-- Leaves -->
+  <!-- Leaf 1 -->
+  <ellipse cx="120" cy="380" rx="50" ry="25" fill="#4CAF50" transform="rotate(-30 120 380)"/>
+  <path d="M120 380 Q100 380 80 380" stroke="#2E7D32" stroke-width="2" fill="none"/>
+  
+  <!-- Leaf 2 -->
+  <ellipse cx="380" cy="320" rx="55" ry="28" fill="#66BB6A" transform="rotate(25 380 320)"/>
+  <path d="M380 320 Q400 320 420 320" stroke="#388E3C" stroke-width="2" fill="none"/>
+  
+  <!-- Leaf 3 -->
+  <ellipse cx="100" cy="260" rx="48" ry="24" fill="#4CAF50" transform="rotate(-20 100 260)"/>
+  <path d="M100 260 Q80 260 60 260" stroke="#2E7D32" stroke-width="2" fill="none"/>
+  
+  <!-- Leaf 4 -->
+  <ellipse cx="400" cy="200" rx="52" ry="26" fill="#66BB6A" transform="rotate(30 400 200)"/>
+  <path d="M400 200 Q420 200 440 200" stroke="#388E3C" stroke-width="2" fill="none"/>
+  
+  <!-- Coffee Cherries (Red Berries) -->
+  <circle cx="130" cy="360" r="12" fill="#C62828"/>
+  <circle cx="145" cy="375" r="10" fill="#D32F2F"/>
+  
+  <circle cx="370" cy="300" r="11" fill="#C62828"/>
+  <circle cx="355" cy="315" r="9" fill="#D32F2F"/>
+  
+  <circle cx="110" cy="240" r="10" fill="#C62828"/>
+  <circle cx="125" cy="250" r="8" fill="#D32F2F"/>
+  
+  <circle cx="390" cy="180" r="12" fill="#C62828"/>
+  <circle cx="375" cy="195" r="9" fill="#D32F2F"/>
+  
+  <!-- Small leaves at top -->
+  <ellipse cx="230" cy="80" rx="30" ry="15" fill="#4CAF50" transform="rotate(-15 230 80)"/>
+  <ellipse cx="270" cy="90" rx="28" ry="14" fill="#66BB6A" transform="rotate(15 270 90)"/>
+  <ellipse cx="250" cy="60" rx="25" ry="12" fill="#81C784" transform="rotate(0 250 60)"/>
+</svg>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1100">
+  <!-- Background -->
+  <rect width="850" height="1100" fill="#FAFAFA"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="850" height="80" fill="#A29BFE"/>
+  <text x="425" y="50" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle">INTRODUCTION</text>
+  
+  <!-- Quote Box -->
+  <rect x="50" y="100" width="750" height="120" fill="#FFFFFF" stroke="#A29BFE" stroke-width="2" rx="15"/>
+  <text x="100" y="160" font-family="Georgia, serif" font-size="48" fill="#A29BFE">"</text>
+  <text x="130" y="180" font-family="Georgia, serif" font-size="24" font-style="italic" fill="#2D3436">The way you do anything is the way you do everything.</text>
+  <text x="750" y="180" font-family="Georgia, serif" font-size="48" fill="#A29BFE" text-anchor="end">"</text>
+  
+  <!-- Content -->
+  <g font-family="Arial, sans-serif">
+    <text x="70" y="260" font-size="18" fill="#2D3436">Welcome to the 30-Day Minimalism Challenge!</text>
+    
+    <text x="70" y="300" font-size="16" fill="#636E72">This workbook is designed to help you:</text>
+    
+    <text x="100" y="340" font-size="16" fill="#2D3436">✓ Understand what minimalism truly means</text>
+    <text x="100" y="370" font-size="16" fill="#2D3436">✓ Declutter your physical and digital spaces</text>
+    <text x="100" y="400" font-size="16" fill="#2D3436">✓ Make mindful spending decisions</text>
+    <text x="100" y="430" font-size="16" fill="#2D3436">✓ Create habits that stick</text>
+    <text x="100" y="460" font-size="16" fill="#2D3436">✓ Find clarity and peace in your daily life</text>
+    
+    <!-- How to Use -->
+    <rect x="50" y="490" width="750" height="200" fill="#FFFFFF" stroke="#E0E0E0" rx="15"/>
+    <text x="70" y="520" font-size="18" font-weight="bold" fill="#2D3436">📝 How to Use This Workbook</text>
+    
+    <text x="70" y="555" font-size="14" fill="#636E72">1. Read the daily lesson or prompt</text>
+    <text x="70" y="580" font-size="14" fill="#636E72">2. Complete the worksheet/exercise</text>
+    <text x="70" y="605" font-size="14" fill="#636E72">3. Check off the daily habit</text>
+    <text x="70" y="630" font-size="14" fill="#636E72">4. Journal your reflections</text>
+    <text x="70" y="655" font-size="14" fill="#636E72">5. Repeat daily for 30 days!</text>
+    
+    <!-- Promise Box -->
+    <rect x="50" y="710" width="750" height="150" fill="#A29BFE" opacity="0.1" rx="15"/>
+    <text x="70" y="745" font-size="18" font-weight="bold" fill="#2D3436">🌟 My Promise to You</text>
+    <text x="70" y="780" font-size="14" fill="#636E72">By completing this 30-day challenge, you will:</text>
+    <text x="70" y="810" font-size="14" fill="#2D3436">• Save time looking for things</text>
+    <text x="70" y="835" font-size="14" fill="#2D3436">• Save money by avoiding impulse purchases</text>
+    <text x="70" y="860" font-size="14" fill="#2D3436">• Feel more calm and focused</text>
+    
+    <!-- Signature Line -->
+    <text x="70" y="920" font-size="16" fill="#636E72">I commit to completing the 30-Day Minimalism Challenge.</text>
+    <line x1="70" y1="950" x2="300" y2="950" stroke="#2D3436" stroke-width="2"/>
+    <text x="70" y="975" font-size="14" fill="#B2BEC3">Signature</text>
+    <text x="400" y="975" font-size="14" fill="#B2BEC3">Date:</text>
+    <line x1="450" y1="975" x2="600" y2="975" stroke="#2D3436" stroke-width="2"/>
+    
+    <!-- Page Number -->
+    <text x="425" y="1050" font-family="Arial, sans-serif" font-size="14" fill="#B2BEC3" text-anchor="middle">3</text>
+  </g>
+</svg>

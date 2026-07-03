@@ -1,0 +1,29 @@
+# 🎨 Brand Color Palette Guide
+
+## Template Colors (Ganti sesuai brand Anda)
+
+### Primary Colors
+| Nama | Hex Code | RGB | Usage |
+|------|----------|-----|-------|
+| Charcoal | #2D3436 | 45, 52, 54 | Headlines, buttons |
+| Warm Beige | #D4A574 | 212, 165, 116 | Accents, highlights |
+| Soft Cream | #F8F6F4 | 248, 246, 244 | Backgrounds |
+
+### Secondary Colors
+| Nama | Hex Code | RGB | Usage |
+|------|----------|-----|-------|
+| Sage Green | #A8D5BA | 168, 213, 186 | Nature, wellness |
+| Dusty Rose | #E8B4B8 | 232, 180, 184 | Feminine, beauty |
+| Ocean Blue | #74B9FF | 116, 185, 255 | Tech, corporate |
+
+## 📝 Cara Menggunakan
+
+1. **Buka Canva** → Klik **Brand Kit** → **Colors**
+2. **Copy hex code** di atas dan paste ke Canva
+3. **Simpan preset** untuk penggunaan cepat
+
+## 💡 Tips
+
+- Maksimal **3 warna utama** untuk kesan profesional
+- Gunakan **1 warna aksen** untuk highlight
+- Tambahkan **warna netral** (putih, abu, hitam) untuk keseimbangan

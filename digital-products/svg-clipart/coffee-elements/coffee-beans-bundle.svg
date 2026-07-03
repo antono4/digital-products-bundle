@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Coffee Beans Bundle -->
+  
+  <!-- Bean 1 -->
+  <ellipse cx="150" cy="200" rx="50" ry="80" fill="#5D4037" transform="rotate(-20 150 200)"/>
+  <path d="M130 200 Q150 180 170 200" fill="none" stroke="#3E2723" stroke-width="3"/>
+  
+  <!-- Bean 2 -->
+  <ellipse cx="280" cy="180" rx="45" ry="75" fill="#6D4C41" transform="rotate(15 280 180)"/>
+  <path d="M260 180 Q280 160 300 180" fill="none" stroke="#4E342E" stroke-width="3"/>
+  
+  <!-- Bean 3 -->
+  <ellipse cx="350" cy="250" rx="40" ry="70" fill="#795548" transform="rotate(-35 350 250)"/>
+  <path d="M335 250 Q350 235 365 250" fill="none" stroke="#5D4037" stroke-width="3"/>
+  
+  <!-- Bean 4 -->
+  <ellipse cx="200" cy="320" rx="48" ry="78" fill="#4E342E" transform="rotate(25 200 320)"/>
+  <path d="M180 320 Q200 300 220 320" fill="none" stroke="#3E2723" stroke-width="3"/>
+  
+  <!-- Bean 5 -->
+  <ellipse cx="300" cy="340" rx="42" ry="72" fill="#5D4037" transform="rotate(-10 300 340)"/>
+  <path d="M282 340 Q300 322 318 340" fill="none" stroke="#4E342E" stroke-width="3"/>
+  
+  <!-- Bean 6 -->
+  <ellipse cx="380" cy="380" rx="35" ry="60" fill="#6D4C41" transform="rotate(40 380 380)"/>
+  <path d="M365 380 Q380 365 395 380" fill="none" stroke="#5D4037" stroke-width="3"/>
+  
+  <!-- Small scattered beans -->
+  <ellipse cx="120" cy="350" rx="25" ry="40" fill="#795548" transform="rotate(-45 120 350)"/>
+  <path d="M108 350 Q120 338 132 350" fill="none" stroke="#5D4037" stroke-width="2"/>
+  
+  <ellipse cx="420" cy="150" rx="28" ry="45" fill="#4E342E" transform="rotate(30 420 150)"/>
+  <path d="M408 150 Q420 138 432 150" fill="none" stroke="#3E2723" stroke-width="2"/>
+</svg>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1100">
+  <!-- Background -->
+  <rect width="850" height="1100" fill="#FAFAFA"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="850" height="120" fill="#2D3436"/>
+  <text x="425" y="75" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#FFFFFF" text-anchor="middle">WEEKLY PLANNER</text>
+  <text x="425" y="105" font-family="Arial, sans-serif" font-size="18" fill="#B2BEC3" text-anchor="middle">Week of _______________</text>
+  
+  <!-- Day Header - Monday -->
+  <rect x="50" y="150" width="750" height="60" fill="#D4A574"/>
+  <text x="425" y="190" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#FFFFFF" text-anchor="middle">MONDAY</text>
+  
+  <!-- Time Slots -->
+  <g font-family="Arial, sans-serif" font-size="14" fill="#636E72">
+    <text x="70" y="250">6:00 AM</text>
+    <text x="70" y="310">7:00 AM</text>
+    <text x="70" y="370">8:00 AM</text>
+    <text x="70" y="430">9:00 AM</text>
+    <text x="70" y="490">10:00 AM</text>
+    <text x="70" y="550">11:00 AM</text>
+    <text x="70" y="610">12:00 PM</text>
+    <text x="70" y="670">1:00 PM</text>
+    <text x="70" y="730">2:00 PM</text>
+    <text x="70" y="790">3:00 PM</text>
+    <text x="70" y="850">4:00 PM</text>
+    <text x="70" y="910">5:00 PM</text>
+    <text x="70" y="970">6:00 PM</text>
+  </g>
+  
+  <!-- Grid Lines -->
+  <g stroke="#E0E0E0" stroke-width="1">
+    <line x1="130" y1="220" x2="800" y2="220"/>
+    <line x1="130" y1="280" x2="800" y2="280"/>
+    <line x1="130" y1="340" x2="800" y2="340"/>
+    <line x1="130" y1="400" x2="800" y2="400"/>
+    <line x1="130" y1="460" x2="800" y2="460"/>
+    <line x1="130" y1="520" x2="800" y2="520"/>
+    <line x1="130" y1="580" x2="800" y2="580"/>
+    <line x1="130" y1="640" x2="800" y2="640"/>
+    <line x1="130" y1="700" x2="800" y2="700"/>
+    <line x1="130" y1="760" x2="800" y2="760"/>
+    <line x1="130" y1="820" x2="800" y2="820"/>
+    <line x1="130" y1="880" x2="800" y2="880"/>
+    <line x1="130" y1="940" x2="800" y2="940"/>
+  </g>
+  
+  <!-- Notes Section -->
+  <rect x="50" y="1000" width="750" height="80" fill="#F8F6F4" stroke="#E0E0E0" rx="10"/>
+  <text x="70" y="1025" font-family="Arial, sans-serif" font-size="16" fill="#636E72">Notes:</text>
+</svg>

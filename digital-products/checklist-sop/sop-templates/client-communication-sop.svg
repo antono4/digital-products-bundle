@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1100">
+  <!-- Background -->
+  <rect width="850" height="1100" fill="#FAFAFA"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="850" height="100" fill="#2D3436"/>
+  <text x="425" y="35" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle">📋 SOP TEMPLATES</text>
+  <text x="425" y="65" font-family="Arial, sans-serif" font-size="20" fill="#B2BEC3" text-anchor="middle">Client Communication SOP</text>
+  
+  <!-- Section 1: Communication Rules -->
+  <g font-family="Arial, sans-serif">
+    <rect x="50" y="120" width="750" height="300" fill="#FFFFFF" stroke="#E0E0E0" rx="15"/>
+    <rect x="50" y="120" width="750" height="50" fill="#74B9FF" rx="15"/>
+    <rect x="50" y="145" width="750" height="25" fill="#74B9FF"/>
+    <text x="70" y="152" font-size="18" font-weight="bold" fill="#FFFFFF">📱 ESTABLISHED COMMUNICATION RULES</text>
+    
+    <text x="70" y="195" font-size="14" font-weight="bold" fill="#2D3436">Response Time</text>
+    <rect x="70" y="210" width="700" height="40" fill="#F8F6F4" rx="5"/>
+    <text x="90" y="235" font-size="14" fill="#636E72">Example: "I typically respond within 24-48 hours during business days."</text>
+    
+    <text x="70" y="275" font-size="14" font-weight="bold" fill="#2D3436">Working Hours</text>
+    <rect x="70" y="290" width="700" height="40" fill="#F8F6F4" rx="5"/>
+    <text x="90" y="315" font-size="14" fill="#636E72">Example: "Monday-Friday, 9 AM - 6 PM (client's timezone)"</text>
+    
+    <text x="70" y="355" font-size="14" font-weight="bold" fill="#2D3436">Preferred Channel</text>
+    <rect x="70" y="370" width="340" height="35" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+    <text x="430" y="360" font-size="14" font-weight="bold" fill="#2D3436">Urgent Issues</text>
+    <rect x="430" y="370" width="340" height="35" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+  </g>
+  
+  <!-- Section 2: Email Templates -->
+  <g font-family="Arial, sans-serif">
+    <rect x="50" y="440" width="750" height="350" fill="#FFFFFF" stroke="#E0E0E0" rx="15"/>
+    <rect x="50" y="440" width="750" height="50" fill="#A29BFE" rx="15"/>
+    <rect x="50" y="465" width="750" height="25" fill="#A29BFE"/>
+    <text x="70" y="472" font-size="18" font-weight="bold" fill="#FFFFFF">✉️ EMAIL TEMPLATES</text>
+    
+    <text x="70" y="515" font-size="14" font-weight="bold" fill="#2D3436">Initial Response</text>
+    <rect x="70" y="530" width="700" height="60" fill="#F8F6F4" rx="5"/>
+    <text x="90" y="555" font-size="12" fill="#636E72">"Thank you for reaching out! I've received your message and will review...</text>
+    
+    <text x="70" y="610" font-size="14" font-weight="bold" fill="#2D3436">Project Update</text>
+    <rect x="70" y="625" width="700" height="60" fill="#F8F6F4" rx="5"/>
+    <text x="90" y="650" font-size="12" fill="#636E72">"Here's your weekly update on [Project Name]...</text>
+    
+    <text x="70" y="705" font-size="14" font-weight="bold" fill="#2D3436">Revision Request Response</text>
+    <rect x="70" y="720" width="700" height="60" fill="#F8F6F4" rx="5"/>
+    <text x="90" y="745" font-size="12" fill="#636E72">"Thank you for your feedback! I've noted the revision requests...</text>
+  </g>
+  
+  <!-- Section 3: Do's and Don'ts -->
+  <g font-family="Arial, sans-serif">
+    <rect x="50" y="810" width="360" height="200" fill="#00B894" opacity="0.1" rx="15"/>
+    <text x="70" y="840" font-size="16" font-weight="bold" fill="#00B894">✅ DO'S</text>
+    <text x="70" y="870" font-size="12" fill="#2D3436">• Be professional and courteous</text>
+    <text x="70" y="895" font-size="12" fill="#2D3436">• Set clear expectations</text>
+    <text x="70" y="920" font-size="12" fill="#2D3436">• Confirm important decisions in writing</text>
+    <text x="70" y="945" font-size="12" fill="#2D3436">• Update client proactively</text>
+    <text x="70" y="970" font-size="12" fill="#2D3436">• Use templates for consistency</text>
+    
+    <rect x="430" y="810" width="370" height="200" fill="#E17055" opacity="0.1" rx="15"/>
+    <text x="450" y="840" font-size="16" font-weight="bold" fill="#E17055">❌ DON'TS</text>
+    <text x="450" y="870" font-size="12" fill="#2D3436">• Respond when emotional</text>
+    <text x="450" y="895" font-size="12" fill="#2D3436">• Promise unrealistic deadlines</text>
+    <text x="450" y="920" font-size="12" fill="#2D3436">• Work without a signed contract</text>
+    <text x="450" y="945" font-size="12" fill="#2D3436">• Give unapproved discounts</text>
+    <text x="450" y="970" font-size="12" fill="#2D3436">• Share client info with others</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="425" y="1050" font-family="Arial, sans-serif" font-size="12" fill="#B2BEC3" text-anchor="middle">Freelancer Success Kit | Client Communication SOP</text>
+</svg>

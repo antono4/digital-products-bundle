@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920">
+  <!-- Background -->
+  <rect width="1080" height="1920" fill="#F8F6F4"/>
+  
+  <!-- Header Area -->
+  <rect x="0" y="0" width="1080" height="200" fill="#2D3436"/>
+  
+  <!-- Brand Name -->
+  <text x="540" y="130" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF" text-anchor="middle">YOUR BRAND</text>
+  
+  <!-- Main Content -->
+  <text x="540" y="700" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#2D3436" text-anchor="middle">SWIPE UP!</text>
+  <text x="540" y="820" font-family="Arial, sans-serif" font-size="36" fill="#636E72" text-anchor="middle">or tap the link below</text>
+  
+  <!-- CTA Box -->
+  <rect x="240" y="1000" width="600" height="100" fill="#D4A574" rx="50"/>
+  <text x="540" y="1065" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TAP HERE</text>
+  
+  <!-- Footer -->
+  <text x="540" y="1750" font-family="Arial, sans-serif" font-size="24" fill="#B2BEC3" text-anchor="middle">@yourusername</text>
+</svg>

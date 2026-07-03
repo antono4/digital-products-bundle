@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1100">
+  <!-- Background -->
+  <rect width="850" height="1100" fill="#FAFAFA"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="850" height="80" fill="#A29BFE"/>
+  <text x="425" y="35" font-family="Arial, sans-serif" font-size="20" fill="#FFFFFF" text-anchor="middle">WEEK 1: CLUTTER AUDIT</text>
+  <text x="425" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">DAY 7 - Weekly Reflection</text>
+  
+  <!-- Celebration Box -->
+  <rect x="50" y="95" width="750" height="80" fill="#FDCB6E" rx="15"/>
+  <text x="425" y="130" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2D3436" text-anchor="middle">🎉 YOU COMPLETED WEEK 1!</text>
+  <text x="425" y="155" font-family="Arial, sans-serif" font-size="14" fill="#636E72" text-anchor="middle">Take a moment to celebrate your progress!</text>
+  
+  <!-- Week 1 Summary -->
+  <g font-family="Arial, sans-serif">
+    <rect x="50" y="195" width="750" height="250" fill="#FFFFFF" stroke="#E0E0E0" rx="15"/>
+    <text x="70" y="225" font-size="18" font-weight="bold" fill="#2D3436">📊 Week 1 Achievement Summary</text>
+    
+    <text x="70" y="260" font-size="14" fill="#636E72">Check all that you completed:</text>
+    
+    <rect x="70" y="280" width="30" height="30" fill="#00B894" rx="3"/>
+    <text x="110" y="300" font-size="14" fill="#2D3436">Day 1: Understanding Minimalism</text>
+    
+    <rect x="70" y="320" width="30" height="30" fill="#00B894" rx="3"/>
+    <text x="110" y="340" font-size="14" fill="#2D3436">Day 2: The 90/90 Rule</text>
+    
+    <rect x="70" y="360" width="30" height="30" fill="#FFFFFF" stroke="#E0E0E0" rx="3"/>
+    <text x="110" y="380" font-size="14" fill="#B2BEC3">Day 3: Declutter Your Wardrobe</text>
+    
+    <rect x="70" y="400" width="30" height="30" fill="#00B894" rx="3"/>
+    <text x="110" y="420" font-size="14" fill="#2D3436">Day 4: Digital Declutter</text>
+    
+    <!-- Stats -->
+    <text x="550" y="280" font-size="14" fill="#636E72">Items decluttered:</text>
+    <text x="550" y="320" font-size="14" fill="#636E72">Spaces organized:</text>
+    <text x="550" y="360" font-size="14" fill="#636E72">Time saved:</text>
+    <text x="550" y="400" font-size="14" fill="#636E72">Money saved:</text>
+    
+    <rect x="680" y="265" width="100" height="30" fill="#F8F6F4" rx="3"/>
+    <rect x="680" y="305" width="100" height="30" fill="#F8F6F4" rx="3"/>
+    <rect x="680" y="345" width="100" height="30" fill="#F8F6F4" rx="3"/>
+    <rect x="680" y="385" width="100" height="30" fill="#F8F6F4" rx="3"/>
+    
+    <!-- Reflection Questions -->
+    <rect x="50" y="465" width="750" height="300" fill="#FFFFFF" stroke="#A29BFE" stroke-width="2" rx="15"/>
+    <text x="70" y="495" font-size="18" font-weight="bold" fill="#2D3436">💭 Week 1 Reflection Questions</text>
+    
+    <text x="70" y="530" font-size="14" fill="#636E72">1. What was the hardest part of decluttering this week?</text>
+    <rect x="70" y="545" width="700" height="50" fill="#F8F6F4" rx="5"/>
+    
+    <text x="70" y="615" font-size="14" fill="#636E72">2. How did you feel after letting go of items?</text>
+    <rect x="70" y="630" width="700" height="50" fill="#F8F6F4" rx="5"/>
+    
+    <text x="70" y="700" font-size="14" fill="#636E72">3. What will you do differently in Week 2?</text>
+    <rect x="70" y="715" width="700" height="50" fill="#F8F6F4" rx="5"/>
+    
+    <!-- Moving Forward -->
+    <rect x="50" y="785" width="750" height="150" fill="#74B9FF" opacity="0.1" rx="15"/>
+    <text x="70" y="815" font-size="18" font-weight="bold" fill="#2D3436">🚀 Moving Forward to Week 2</text>
+    <text x="70" y="845" font-size="14" fill="#636E72">In Week 2, we will focus on MINDFUL SPENDING:</text>
+    <text x="90" y="875" font-size="14" fill="#2D3436">• Track your spending habits</text>
+    <text x="90" y="900" font-size="14" fill="#2D3436">• Learn the 30-day rule before buying</text>
+    <text x="90" y="925" font-size="14" fill="#2D3436">• Cancel unused subscriptions</text>
+    
+    <!-- Completion -->
+    <rect x="50" y="955" width="750" height="60" fill="#00B894" rx="10"/>
+    <text x="425" y="985" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">✅ Week 1 Complete! Onward to Week 2!</text>
+    
+    <!-- Page Number -->
+    <text x="425" y="1050" font-family="Arial, sans-serif" font-size="14" fill="#B2BEC3" text-anchor="middle">18</text>
+  </g>
+</svg>

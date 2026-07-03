@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 324 324">
+  <!-- Background -->
+  <rect width="324" height="324" fill="#D4A574" rx="162"/>
+  
+  <!-- Star Icon -->
+  <polygon points="162,60 180,120 245,120 195,155 210,215 162,180 114,215 129,155 79,120 144,120" fill="#FFFFFF"/>
+  
+  <!-- Text -->
+  <text x="162" y="300" font-family="Arial, sans-serif" font-size="20" fill="#FFFFFF" text-anchor="middle">SERVICES</text>
+</svg>

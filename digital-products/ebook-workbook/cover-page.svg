@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1100">
+  <!-- Soft Background -->
+  <rect width="850" height="1100" fill="#F8F6F4"/>
+  
+  <!-- Decorative Shapes -->
+  <circle cx="0" cy="0" r="300" fill="#A29BFE" opacity="0.2"/>
+  <circle cx="850" cy="1100" r="350" fill="#74B9FF" opacity="0.2"/>
+  <rect x="600" y="0" width="250" height="250" fill="#FDCB6E" opacity="0.2" transform="rotate(45 725 125)"/>
+  
+  <!-- Main Title Card -->
+  <rect x="75" y="150" width="700" height="700" fill="#FFFFFF" rx="30" filter="url(#shadow)"/>
+  
+  <!-- Book Icon -->
+  <text x="425" y="250" font-family="Arial, sans-serif" font-size="80" text-anchor="middle">📖</text>
+  
+  <!-- Title -->
+  <text x="425" y="350" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="#2D3436" text-anchor="middle">30-DAY</text>
+  <text x="425" y="420" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="#2D3436" text-anchor="middle">MINIMALISM</text>
+  <text x="425" y="490" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="#A29BFE" text-anchor="middle">CHALLENGE</text>
+  
+  <!-- Subtitle -->
+  <text x="425" y="560" font-family="Arial, sans-serif" font-size="28" fill="#636E72" text-anchor="middle">Workbook & Journal</text>
+  
+  <!-- Decorative Line -->
+  <rect x="325" y="590" width="200" height="4" fill="#A29BFE" rx="2"/>
+  
+  <!-- Tagline -->
+  <text x="425" y="640" font-family="Arial, sans-serif" font-size="20" fill="#B2BEC3" text-anchor="middle">Less clutter. More clarity.</text>
+  <text x="425" y="670" font-family="Arial, sans-serif" font-size="20" fill="#B2BEC3" text-anchor="middle">Less stuff. More life.</text>
+  
+  <!-- Author -->
+  <text x="425" y="780" font-family="Arial, sans-serif" font-size="18" fill="#636E72" text-anchor="middle">By Your Name</text>
+  
+  <!-- Footer -->
+  <text x="425" y="950" font-family="Arial, sans-serif" font-size="16" fill="#B2BEC3" text-anchor="middle">📱 Digital Download | Printable PDF</text>
+  
+  <!-- Shadow Filter -->
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="20" flood-color="#000" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+</svg>

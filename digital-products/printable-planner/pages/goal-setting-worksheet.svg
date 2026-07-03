@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1100">
+  <!-- Background -->
+  <rect width="850" height="1100" fill="#FAFAFA"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="850" height="100" fill="#FDCB6E"/>
+  <text x="425" y="55" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#2D3436" text-anchor="middle">GOAL SETTING WORKSHEET</text>
+  <text x="425" y="85" font-family="Arial, sans-serif" font-size="16" fill="#636E72" text-anchor="middle">Dream big, plan smart, execute daily!</text>
+  
+  <!-- Section 1: My Big Dreams -->
+  <rect x="50" y="120" width="750" height="250" fill="#FFFFFF" stroke="#FDCB6E" stroke-width="2" rx="15"/>
+  <rect x="50" y="120" width="750" height="50" fill="#FDCB6E" rx="15"/>
+  <rect x="50" y="145" width="750" height="25" fill="#FDCB6E"/>
+  <text x="425" y="152" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2D3436" text-anchor="middle">🌟 MY BIG DREAMS (Vision)</text>
+  
+  <g font-family="Arial, sans-serif" font-size="14" fill="#636E72">
+    <text x="70" y="200">1. What do you want to achieve in the next 5 years?</text>
+    <rect x="70" y="210" width="700" height="60" fill="#F8F6F4" rx="5"/>
+    
+    <text x="70" y="300">2. What does your ideal life look like?</text>
+    <rect x="70" y="310" width="700" height="60" fill="#F8F6F4" rx="5"/>
+  </g>
+  
+  <!-- Section 2: 1-Year Goals -->
+  <rect x="50" y="390" width="750" height="200" fill="#FFFFFF" stroke="#00B894" stroke-width="2" rx="15"/>
+  <rect x="50" y="390" width="750" height="50" fill="#00B894" rx="15"/>
+  <rect x="50" y="415" width="750" height="25" fill="#00B894"/>
+  <text x="425" y="422" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">🎯 MY 1-YEAR GOALS</text>
+  
+  <g font-family="Arial, sans-serif" font-size="14" fill="#2D3436">
+    <text x="70" y="470">□ Goal 1:</text>
+    <rect x="150" y="460" width="600" height="30" fill="#F8F6F4" rx="3"/>
+    
+    <text x="70" y="510">□ Goal 2:</text>
+    <rect x="150" y="500" width="600" height="30" fill="#F8F6F4" rx="3"/>
+    
+    <text x="70" y="550">□ Goal 3:</text>
+    <rect x="150" y="540" width="600" height="30" fill="#F8F6F4" rx="3"/>
+  </g>
+  
+  <!-- Section 3: Monthly Milestones -->
+  <rect x="50" y="610" width="750" height="250" fill="#FFFFFF" stroke="#74B9FF" stroke-width="2" rx="15"/>
+  <rect x="50" y="610" width="750" height="50" fill="#74B9FF" rx="15"/>
+  <rect x="50" y="635" width="750" height="25" fill="#74B9FF"/>
+  <text x="425" y="642" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">📅 MONTHLY MILESTONES</text>
+  
+  <g font-family="Arial, sans-serif" font-size="14" fill="#2D3436">
+    <text x="70" y="690">This month, I will focus on:</text>
+    <rect x="70" y="700" width="700" height="50" fill="#F8F6F4" rx="5"/>
+    
+    <text x="70" y="780">Key actions I need to take:</text>
+    <rect x="70" y="790" width="340" height="40" fill="#F8F6F4" rx="3"/>
+    <rect x="430" y="790" width="340" height="40" fill="#F8F6F4" rx="3"/>
+  </g>
+  
+  <!-- Section 4: Daily Actions -->
+  <rect x="50" y="880" width="750" height="180" fill="#FFFFFF" stroke="#A29BFE" stroke-width="2" rx="15"/>
+  <rect x="50" y="880" width="750" height="50" fill="#A29BFE" rx="15"/>
+  <rect x="50" y="905" width="750" height="25" fill="#A29BFE"/>
+  <text x="425" y="912" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">⚡ DAILY ACTIONS</text>
+  
+  <g font-family="Arial, sans-serif" font-size="14" fill="#2D3436">
+    <text x="70" y="960">Today, I will complete these 3 tasks:</text>
+    <text x="70" y="985">1.</text>
+    <rect x="100" y="975" width="650" height="25" fill="#F8F6F4" rx="3"/>
+    <text x="70" y="1015">2.</text>
+    <rect x="100" y="1005" width="650" height="25" fill="#F8F6F4" rx="3"/>
+    <text x="70" y="1045">3.</text>
+    <rect x="100" y="1035" width="650" height="25" fill="#F8F6F4" rx="3"/>
+  </g>
+</svg>

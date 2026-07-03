@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 324 324">
+  <!-- Background -->
+  <rect width="324" height="324" fill="#74B9FF" rx="162"/>
+  
+  <!-- Envelope Icon -->
+  <rect x="62" y="100" width="200" height="130" fill="none" stroke="#FFFFFF" stroke-width="8" rx="10"/>
+  <polyline points="62,100 162,165 262,100" fill="none" stroke="#FFFFFF" stroke-width="8"/>
+  
+  <!-- Text -->
+  <text x="162" y="300" font-family="Arial, sans-serif" font-size="20" fill="#FFFFFF" text-anchor="middle">CONTACT</text>
+</svg>

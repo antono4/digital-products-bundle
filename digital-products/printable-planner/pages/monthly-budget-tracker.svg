@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1100">
+  <!-- Background -->
+  <rect width="850" height="1100" fill="#FAFAFA"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="850" height="100" fill="#2D3436"/>
+  <text x="425" y="60" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#FFFFFF" text-anchor="middle">MONTHLY BUDGET TRACKER</text>
+  <text x="425" y="85" font-family="Arial, sans-serif" font-size="16" fill="#B2BEC3" text-anchor="middle">Month: _______________ | Year: _______</text>
+  
+  <!-- Income Section -->
+  <rect x="50" y="120" width="750" height="40" fill="#00B894"/>
+  <text x="70" y="147" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">💰 INCOME</text>
+  
+  <g font-family="Arial, sans-serif" font-size="14" fill="#2D3436">
+    <text x="70" y="185">Salary/Wages</text>
+    <rect x="400" y="170" width="200" height="25" fill="none" stroke="#E0E0E0" rx="3"/>
+    <text x="620" y="187">$________</text>
+    
+    <text x="70" y="215">Freelance/Extra</text>
+    <rect x="400" y="200" width="200" height="25" fill="none" stroke="#E0E0E0" rx="3"/>
+    <text x="620" y="217">$________</text>
+    
+    <text x="70" y="245">Other Income</text>
+    <rect x="400" y="230" width="200" height="25" fill="none" stroke="#E0E0E0" rx="3"/>
+    <text x="620" y="247">$________</text>
+  </g>
+  
+  <!-- Total Income -->
+  <rect x="650" y="255" width="140" height="30" fill="#00B894" rx="5"/>
+  <text x="720" y="276" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TOTAL: $______</text>
+  
+  <!-- Expenses Section -->
+  <rect x="50" y="300" width="750" height="40" fill="#E17055"/>
+  <text x="70" y="327" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">📉 EXPENSES</text>
+  
+  <!-- Expense Categories -->
+  <g font-family="Arial, sans-serif" font-size="14" fill="#2D3436">
+    <text x="70" y="365">🏠 Rent/Mortgage</text>
+    <rect x="400" y="350" width="200" height="25" fill="none" stroke="#E0E0E0" rx="3"/>
+    <text x="620" y="367">$________</text>
+    
+    <text x="70" y="395">⚡ Utilities</text>
+    <rect x="400" y="380" width="200" height="25" fill="none" stroke="#E0E0E0" rx="3"/>
+    <text x="620" y="397">$________</text>
+    
+    <text x="70" y="425">🛒 Groceries</text>
+    <rect x="400" y="410" width="200" height="25" fill="none" stroke="#E0E0E0" rx="3"/>
+    <text x="620" y="427">$________</text>
+    
+    <text x="70" y="455">🚗 Transportation</text>
+    <rect x="400" y="440" width="200" height="25" fill="none" stroke="#E0E0E0" rx="3"/>
+    <text x="620" y="457">$________</text>
+    
+    <text x="70" y="485">📱 Phone/Internet</text>
+    <rect x="400" y="470" width="200" height="25" fill="none" stroke="#E0E0E0" rx="3"/>
+    <text x="620" y="487">$________</text>
+    
+    <text x="70" y="515">💊 Insurance</text>
+    <rect x="400" y="500" width="200" height="25" fill="none" stroke="#E0E0E0" rx="3"/>
+    <text x="620" y="517">$________</text>
+    
+    <text x="70" y="545">🎭 Entertainment</text>
+    <rect x="400" y="530" width="200" height="25" fill="none" stroke="#E0E0E0" rx="3"/>
+    <text x="620" y="547">$________</text>
+    
+    <text x="70" y="575">📦 Subscriptions</text>
+    <rect x="400" y="560" width="200" height="25" fill="none" stroke="#E0E0E0" rx="3"/>
+    <text x="620" y="577">$________</text>
+  </g>
+  
+  <!-- Total Expenses -->
+  <rect x="650" y="585" width="140" height="30" fill="#E17055" rx="5"/>
+  <text x="720" y="606" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TOTAL: $______</text>
+  
+  <!-- Summary Box -->
+  <rect x="50" y="640" width="750" height="150" fill="#F8F6F4" stroke="#2D3436" rx="15"/>
+  <text x="425" y="675" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2D3436" text-anchor="middle">📊 MONTHLY SUMMARY</text>
+  
+  <g font-family="Arial, sans-serif" font-size="16" fill="#2D3436">
+    <text x="100" y="710">Total Income:</text>
+    <text x="300" y="710">$________</text>
+    
+    <text x="100" y="745">Total Expenses:</text>
+    <text x="300" y="745">$________</text>
+    
+    <line x1="90" y1="765" x2="350" y2="765" stroke="#E0E0E0" stroke-width="1"/>
+    
+    <text x="100" y="790" font-weight="bold" font-size="20">💵 Net Savings:</text>
+    <text x="300" y="790" font-weight="bold" font-size="20">$________</text>
+  </g>
+  
+  <!-- Goals Section -->
+  <rect x="50" y="820" width="750" height="250" fill="#FFFFFF" stroke="#E0E0E0" rx="10"/>
+  <text x="70" y="850" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2D3436">🎯 SAVINGS GOALS</text>
+  
+  <g font-family="Arial, sans-serif" font-size="14" fill="#636E72">
+    <text x="70" y="890">Goal 1: ________________</text>
+    <text x="500" y="890">$____ saved of $____</text>
+    <rect x="70" y="900" width="500" height="15" fill="#E0E0E0" rx="7"/>
+    <rect x="70" y="900" width="200" height="15" fill="#00B894" rx="7"/>
+    
+    <text x="70" y="945">Goal 2: ________________</text>
+    <text x="500" y="945">$____ saved of $____</text>
+    <rect x="70" y="955" width="500" height="15" fill="#E0E0E0" rx="7"/>
+    <rect x="70" y="955" width="350" height="15" fill="#74B9FF" rx="7"/>
+    
+    <text x="70" y="1000">Goal 3: ________________</text>
+    <text x="500" y="1000">$____ saved of $____</text>
+    <rect x="70" y="1010" width="500" height="15" fill="#E0E0E0" rx="7"/>
+    <rect x="70" y="1010" width="100" height="15" fill="#D4A574" rx="7"/>
+  </g>
+</svg>

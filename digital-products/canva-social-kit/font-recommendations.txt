@@ -1,0 +1,39 @@
+# 🔤 Font Recommendations for Your Brand
+
+## 📌 Free Fonts (Canva Available)
+
+### Headlines & Display
+| Font | Style | Best For |
+|------|-------|----------|
+| **Playfair Display** | Elegant Serif | Fashion, luxury, wedding |
+| **Montserrat** | Modern Sans | Business, tech, minimal |
+| **Poppins** | Friendly Sans | Lifestyle, wellness, food |
+| **Abril Fatface** | Bold Display | Impact, quotes, headers |
+
+### Body Text
+| Font | Style | Best For |
+|------|-------|----------|
+| **Lato** | Clean Sans | Blog posts, descriptions |
+| **Open Sans** | Readable | General purpose |
+| **Merriweather** | Classic Serif | Editorial, quotes |
+| **Nunito** | Rounded | Friendly, approachable |
+
+### Accent & Handwritten
+| Font | Style | Best For |
+|------|-------|----------|
+| **Dancing Script** | Cursive | Invitations, signatures |
+| **Pacifico** | Playful | Casual, fun brands |
+| **Sacramento** | Brush Script | Beauty, feminine |
+
+## 💡 Font Pairing Examples
+
+1. **Minimal Brand**: Montserrat + Open Sans
+2. **Elegant Brand**: Playfair Display + Lato
+3. **Friendly Brand**: Poppins + Nunito
+4. **Creative Brand**: Abril Fatface + Dancing Script
+
+## 🎯 Cara Set di Canva
+
+1. **Templates** → **Text** → **Upload Fonts**
+2. Atau langsung **replace font** di template yang ada
+3. **Brand Kit** → **Fonts** → Save preset

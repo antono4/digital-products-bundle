@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920">
+  <!-- Background -->
+  <rect width="1080" height="1920" fill="#FFFFFF"/>
+  
+  <!-- Decorative Shapes -->
+  <circle cx="150" cy="300" r="200" fill="#FFECD2" opacity="0.5"/>
+  <circle cx="930" cy="1600" r="250" fill="#FCB69F" opacity="0.3"/>
+  
+  <!-- Quote Section -->
+  <text x="540" y="600" font-family="Georgia, serif" font-size="120" fill="#2D3436" text-anchor="middle">"</text>
+  <text x="540" y="850" font-family="Arial, sans-serif" font-size="52" fill="#2D3436" text-anchor="middle">Daily affirmation</text>
+  <text x="540" y="930" font-family="Arial, sans-serif" font-size="52" fill="#D4A574" text-anchor="middle">or motivation</text>
+  
+  <!-- Line -->
+  <rect x="390" y="1050" width="300" height="4" fill="#2D3436"/>
+  
+  <!-- Tip Box -->
+  <rect x="140" y="1150" width="800" height="200" fill="#F8F6F4" rx="20"/>
+  <text x="540" y="1260" font-family="Arial, sans-serif" font-size="28" fill="#636E72" text-anchor="middle">💡 TIP:</text>
+  <text x="540" y="1310" font-family="Arial, sans-serif" font-size="24" fill="#2D3436" text-anchor="middle">Add your tip or insight here</text>
+  
+  <!-- Username -->
+  <text x="540" y="1750" font-family="Arial, sans-serif" font-size="28" fill="#B2BEC3" text-anchor="middle">@yourusername</text>
+</svg>

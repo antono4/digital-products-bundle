@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Takeaway Coffee Cup -->
+  
+  <!-- Cup Body -->
+  <path d="M120 120 L140 420 Q145 440 160 440 L340 440 Q355 440 360 420 L380 120 Z" 
+        fill="#FFFFFF" stroke="#2D3436" stroke-width="3"/>
+  
+  <!-- Cup Sleeve Area -->
+  <path d="M122 200 L138 360 L362 360 L378 200 Z" 
+        fill="#D4A574" stroke="none"/>
+  
+  <!-- Sleeve Texture Lines -->
+  <line x1="130" y1="220" x2="370" y2="220" stroke="#C49A6C" stroke-width="1"/>
+  <line x1="132" y1="240" x2="368" y2="240" stroke="#C49A6C" stroke-width="1"/>
+  <line x1="134" y1="260" x2="366" y2="260" stroke="#C49A6C" stroke-width="1"/>
+  <line x1="136" y1="280" x2="364" y2="280" stroke="#C49A6C" stroke-width="1"/>
+  <line x1="137" y1="300" x2="363" y2="300" stroke="#C49A6C" stroke-width="1"/>
+  <line x1="138" y1="320" x2="362" y2="320" stroke="#C49A6C" stroke-width="1"/>
+  <line x1="139" y1="340" x2="361" y2="340" stroke="#C49A6C" stroke-width="1"/>
+  
+  <!-- Lid -->
+  <ellipse cx="250" cy="120" rx="130" ry="25" fill="#2D3436"/>
+  <ellipse cx="250" cy="115" rx="120" ry="20" fill="#3D4749"/>
+  
+  <!-- Lid Sip Hole -->
+  <ellipse cx="250" cy="115" rx="20" ry="8" fill="#2D3436"/>
+  
+  <!-- Coffee Ring on Sleeve -->
+  <ellipse cx="250" cy="280" rx="80" ry="25" fill="none" stroke="#8D6E63" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Steam -->
+  <path d="M220 70 Q230 50 220 30" fill="none" stroke="#636E72" stroke-width="2" stroke-linecap="round"/>
+  <path d="M250 60 Q260 35 250 15" fill="none" stroke="#636E72" stroke-width="2" stroke-linecap="round"/>
+  <path d="M280 70 Q290 50 280 30" fill="none" stroke="#636E72" stroke-width="2" stroke-linecap="round"/>
+</svg>

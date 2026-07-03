@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#2D3436"/>
+  
+  <!-- Quote Box -->
+  <rect x="80" y="200" width="920" height="680" fill="#FFFFFF" rx="20" opacity="0.1"/>
+  
+  <!-- Main Quote -->
+  <text x="540" y="450" font-family="Georgia, serif" font-size="56" font-style="italic" fill="#FFFFFF" text-anchor="middle">"</text>
+  <text x="540" y="550" font-family="Arial, sans-serif" font-size="48" fill="#FFFFFF" text-anchor="middle">YOUR INSPIRING</text>
+  <text x="540" y="620" font-family="Arial, sans-serif" font-size="48" fill="#D4A574" text-anchor="middle">QUOTE HERE</text>
+  
+  <!-- Author -->
+  <rect x="440" y="680" width="200" height="3" fill="#D4A574"/>
+  <text x="540" y="740" font-family="Arial, sans-serif" font-size="24" fill="#B2BEC3" text-anchor="middle">— Your Name</text>
+  
+  <!-- Brand -->
+  <text x="540" y="950" font-family="Arial, sans-serif" font-size="20" fill="#636E72" text-anchor="middle">@yourusername</text>
+</svg>

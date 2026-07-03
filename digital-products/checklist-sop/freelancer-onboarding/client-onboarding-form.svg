@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 1100">
+  <!-- Background -->
+  <rect width="850" height="1100" fill="#FAFAFA"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="850" height="100" fill="#2D3436"/>
+  <text x="425" y="35" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle">✅ FREELANCER SUCCESS KIT</text>
+  <text x="425" y="65" font-family="Arial, sans-serif" font-size="20" fill="#B2BEC3" text-anchor="middle">Client Onboarding Form</text>
+  
+  <!-- Progress Bar -->
+  <rect x="50" y="115" width="750" height="30" fill="#E0E0E0" rx="15"/>
+  <rect x="50" y="115" width="400" height="30" fill="#00B894" rx="15"/>
+  <text x="425" y="135" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">Step 2 of 5</text>
+  
+  <!-- Section 1: Client Info -->
+  <g font-family="Arial, sans-serif">
+    <rect x="50" y="160" width="750" height="220" fill="#FFFFFF" stroke="#E0E0E0" rx="15"/>
+    <rect x="50" y="160" width="750" height="50" fill="#74B9FF" rx="15"/>
+    <rect x="50" y="185" width="750" height="25" fill="#74B9FF"/>
+    <text x="70" y="192" font-size="18" font-weight="bold" fill="#FFFFFF">👤 CLIENT INFORMATION</text>
+    
+    <text x="70" y="235" font-size="14" fill="#636E72">Full Name / Company Name</text>
+    <rect x="70" y="250" width="350" height="35" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+    <rect x="440" y="250" width="340" height="35" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+    
+    <text x="70" y="310" font-size="14" fill="#636E72">Email Address</text>
+    <rect x="70" y="325" width="350" height="35" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+    
+    <text x="440" y="310" font-size="14" fill="#636E72">Phone Number</text>
+    <rect x="440" y="325" width="340" height="35" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+  </g>
+  
+  <!-- Section 2: Project Details -->
+  <g font-family="Arial, sans-serif">
+    <rect x="50" y="395" width="750" height="280" fill="#FFFFFF" stroke="#E0E0E0" rx="15"/>
+    <rect x="50" y="395" width="750" height="50" fill="#A29BFE" rx="15"/>
+    <rect x="50" y="420" width="750" height="25" fill="#A29BFE"/>
+    <text x="70" y="427" font-size="18" font-weight="bold" fill="#FFFFFF">📝 PROJECT DETAILS</text>
+    
+    <text x="70" y="470" font-size="14" fill="#636E72">Project Name/Title</text>
+    <rect x="70" y="485" width="700" height="35" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+    
+    <text x="70" y="545" font-size="14" fill="#636E72">Project Type</text>
+    <rect x="70" y="560" width="340" height="35" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+    <text x="440" y="545" font-size="14" fill="#636E72">Budget Range</text>
+    <rect x="440" y="560" width="330" height="35" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+    
+    <text x="70" y="620" font-size="14" fill="#636E72">Deadline / Target Date</text>
+    <rect x="70" y="635" width="340" height="35" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+  </g>
+  
+  <!-- Section 3: Preferences -->
+  <g font-family="Arial, sans-serif">
+    <rect x="50" y="690" width="750" height="220" fill="#FFFFFF" stroke="#E0E0E0" rx="15"/>
+    <rect x="50" y="690" width="750" height="50" fill="#FDCB6E" rx="15"/>
+    <rect x="50" y="715" width="750" height="25" fill="#FDCB6E"/>
+    <text x="70" y="722" font-size="18" font-weight="bold" fill="#2D3436">🎨 BRAND & STYLE PREFERENCES</text>
+    
+    <text x="70" y="765" font-size="14" fill="#636E72">Preferred Communication Style</text>
+    <rect x="70" y="780" width="700" height="35" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+    
+    <text x="70" y="840" font-size="14" fill="#636E72">Inspiration / Reference Links</text>
+    <rect x="70" y="855" width="700" height="50" fill="#FFFFFF" stroke="#E0E0E0" rx="5"/>
+  </g>
+  
+  <!-- Signature Section -->
+  <rect x="50" y="925" width="750" height="80" fill="#F8F6F4" stroke="#00B894" stroke-width="2" rx="10"/>
+  <text x="70" y="955" font-family="Arial, sans-serif" font-size="14" fill="#2D3436">Client Signature: _________________________</text>
+  <text x="550" y="955" font-family="Arial, sans-serif" font-size="14" fill="#2D3436">Date: ____________</text>
+  
+  <!-- Footer -->
+  <text x="425" y="1050" font-family="Arial, sans-serif" font-size="12" fill="#B2BEC3" text-anchor="middle">Freelancer Success Kit | Client Onboarding Form</text>
+</svg>

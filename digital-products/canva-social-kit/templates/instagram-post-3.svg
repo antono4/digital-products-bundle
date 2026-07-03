@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <!-- Soft Gradient Background -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFECD2;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FCB69F;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#grad)"/>
+  
+  <!-- Content Card -->
+  <rect x="120" y="180" width="840" height="720" fill="#FFFFFF" rx="30" opacity="0.95"/>
+  
+  <!-- Number Circle -->
+  <circle cx="540" cy="320" r="80" fill="#2D3436"/>
+  <text x="540" y="345" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#FFFFFF" text-anchor="middle">01</text>
+  
+  <!-- Title -->
+  <text x="540" y="470" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#2D3436" text-anchor="middle">YOUR TITLE</text>
+  
+  <!-- Description -->
+  <text x="540" y="540" font-family="Arial, sans-serif" font-size="28" fill="#636E72" text-anchor="middle">Brief description of your</text>
+  <text x="540" y="580" font-family="Arial, sans-serif" font-size="28" fill="#636E72" text-anchor="middle">content or promotion</text>
+  
+  <!-- CTA Button -->
+  <rect x="390" y="680" width="300" height="60" fill="#2D3436" rx="30"/>
+  <text x="540" y="720" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">LEARN MORE</text>
+</svg>
