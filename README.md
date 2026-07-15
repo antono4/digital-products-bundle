@@ -1,5 +1,7 @@
 # Digital Products Bundle 🛒
 
+![Digital Products](digital-products/checklist-sop/sop-templates/invoice-payment-sop.svg)
+
 A collection of digital products and resources.
 
 ## ✨ Features
